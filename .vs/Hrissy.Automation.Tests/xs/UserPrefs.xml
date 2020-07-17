@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{6E647F90-ADF0-4F57-9E96-A792BDA25F34}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PageObjects/LogIn.cs">
+    <Files>
+      <File FileName="Support/Constants.cs" Line="11" Column="1" />
+      <File FileName="Support/Hooks.cs" Line="17" Column="45" />
+      <File FileName="PageObjects/BasePage.cs" Line="4" Column="43" />
+      <File FileName="PageObjects/LogIn.cs" Line="5" Column="31" />
+      <File FileName="Features/NewSteps.cs" Line="27" Column="6" />
+      <File FileName="Features/New.feature.cs" Line="1" Column="1" />
+      <File FileName="Features/New.feature" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hrissy.Automation.Tests" expanded="True">
+            <Node name="Automation.Tests" expanded="True">
+              <Node name="Features" expanded="True">
+                <Node name="New.feature" expanded="True" />
+              </Node>
+              <Node name="PageObjects" expanded="True">
+                <Node name="LogIn.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Hrissy.Automation.Tests" expanded="True">
+            <Node name="Automation.Tests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Automation.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

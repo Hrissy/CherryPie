@@ -5,7 +5,7 @@ using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 
 
-namespace Tests.Helpers
+namespace Tests.Support
 {
     [Binding]
     public class Hooks

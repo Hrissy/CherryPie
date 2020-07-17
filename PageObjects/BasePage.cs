@@ -3,8 +3,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.PageObjects;
 using TechTalk.SpecFlow;
+using Tests.Support;
 
-namespace Tests.Helpers
+namespace Tests.PageObjects
 {
     public class BasePage
     {

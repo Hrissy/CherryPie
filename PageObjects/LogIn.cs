@@ -3,7 +3,6 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumExtras.PageObjects;
 using OpenQA.Selenium.Support;
-using Tests.Helpers;
 
 namespace Tests.PageObjects
 {

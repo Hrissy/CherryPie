@@ -2,7 +2,6 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
-using Tests.Helpers;
 using Tests.PageObjects;
 
 [Binding]

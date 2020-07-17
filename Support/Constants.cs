@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Tests.Helpers
+namespace Tests.Support
 {
     public class Constants
     {
