@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Features\New.feature">
+    <None Include="Features\Sales.feature">
       <LastGenOutput>New.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
@@ -116,12 +116,12 @@
     <Folder Include="Support\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\New.feature.cs">
-      <DependentUpon>New.feature</DependentUpon>
+    <Compile Include="Features\Sales.feature.cs">
+      <DependentUpon>Sales.feature</DependentUpon>
     </Compile>
     <Compile Include="PageObjects\LogInPage.cs" />
-    <Compile Include="Features\NewSteps.cs">
-      <DependentUpon>New.feature</DependentUpon>
+    <Compile Include="Features\SalesSteps.cs">
+      <DependentUpon>Sales.feature</DependentUpon>
     </Compile>
     <Compile Include="PageObjects\BasePage.cs" />
     <Compile Include="Support\Constants.cs" />
