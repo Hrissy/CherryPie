@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.PageObjects;
+using OpenQA.Selenium.Support.UI;
 using TechTalk.SpecFlow;
 using Tests.Support;
 
@@ -21,6 +22,5 @@ namespace Tests.PageObjects
             driver.Navigate().GoToUrl(Constants.url);
         }
 
- 
     }
 }

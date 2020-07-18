@@ -3,8 +3,8 @@ namespace Tests.Support
 {
     public class Constants
     {
-        public static string url = "http://qapartial-fourth-app.cs87.force.com/";
-        public static string password = "test";
-        public static string username = "test";
+        public static string url = "https://me.sumup.com/en-us/login";
+        public static string password = "topsecret";
+        public static string username = "hr111sy@gmail.com";
     }
 }

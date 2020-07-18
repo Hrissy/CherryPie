@@ -26,6 +26,7 @@ namespace Tests.Support
             driver = new ChromeDriver();
             objectContainer.RegisterInstanceAs<IWebDriver>(driver);
             driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
 
