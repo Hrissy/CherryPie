@@ -53,6 +53,13 @@ public class StepDefinitions
     [Then(@"Message ""(.*)"" is displayed")]
     public void ThenMessageIsDisplayed(string message)
     {
-        Assert.AreEqual(salesPage.MessageNoResultsText, message);
+        try
+        {
+            Assert.AreEqual(salesPage.MessageNoResultsText, message);
+        }
+        catch(NoSuchElementException)
+        {
+            Assert.Fail("Text for no results is not displayed");
+        }     
     }
 }
